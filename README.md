@@ -29,8 +29,12 @@ when a sensitive attribute (gender) is involved in a high-risk outcome.
 **Why it matters:** Enables risk teams to justify model decisions during stakeholder review and model governance.
 
 ### 3) Fairness Guardrail (Compliance-Oriented Messaging)
-- Includes a fairness note around sensitive attribute (gender) in high-risk outcomes.
-- Uses a **<5% threshold** as a practical guardrail reference for demographic impact.
+- Conducted fairness audit using **Fairlearn MetricFrame**, evaluating group-level
+  performance across sensitive attributes (gender).
+- Assessed **false positive rate (FPR)** and **selection rate** differences between
+  demographic groups, with practical guardrail thresholds (5% / 10%) to flag
+  potential bias risks.
+
 
 **Why it matters:** Helps reduce legal and reputational risks by explicitly monitoring sensitive attributes in decisioning.
 
