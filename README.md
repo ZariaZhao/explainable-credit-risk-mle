@@ -2,6 +2,12 @@
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue) ![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange) ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red) ![Docker](https://img.shields.io/badge/Deploy-Docker-2496ED)
 
+## Executive Summary
+
+This project demonstrates a production-style credit risk scoring system designed for regulated banking environments.
+It combines high-performance machine learning (XGBoost) with explainability (SHAP) and fairness auditing (Fairlearn)
+to support compliant credit decisions for existing customers (B-scorecard scenario).
+
 > **项目简介**：这是一个端到端的机器学习工程项目，旨在构建一个既具备高性能（XGBoost），又符合金融监管要求（可解释性 + 公平性）的信用评分系统。该系统专注于**存量客户管理（B卡模型）**，不仅输出违约概率，还能通过 SHAP 值解释决策原因，并实时监控模型对不同性别的公平性。
 
 ## 🌟 核心功能 (Key Features)
