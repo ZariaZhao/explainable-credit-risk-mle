@@ -44,7 +44,22 @@ when a sensitive attribute (gender) is involved in a high-risk outcome.
 - **Decision transparency**: Displays “Why this decision?” explanations alongside the prediction output.
 
 ---
+## Results (Baseline Evaluation)
 
+The baseline XGBoost model was trained on the UCI Credit Card Default dataset (N = 30,000)
+and evaluated on a held-out test set (N = 6,000).
+
+**Performance metrics:**
+- Accuracy: **0.82**
+- ROC-AUC: **0.777**
+- Class 1 (default) recall: **0.36**
+
+> Note: The relatively lower recall for the default class reflects class imbalance in the dataset.
+> This baseline configuration prioritizes overall stability and interpretability.
+> Future improvements may include threshold tuning, class weighting, or calibration to better
+> balance recall and precision for high-risk customers.
+
+---
 ## Project Structure
 
 ```text
