@@ -77,4 +77,8 @@ credit-scoring-project/
 ├── app.py                     # Streamlit application
 ├── Dockerfile                 # Container build
 ├── requirements.txt           # Dependencies
+<<<<<<< HEAD
 └── README.md
+=======
+└── README.md
+>>>>>>> 13cce05ff623a9f8cbb4f54226e5135b82f4c3c9
